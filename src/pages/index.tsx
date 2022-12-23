@@ -10,7 +10,7 @@ const IndexPage: React.FC<PageProps> = () => {
 
   const handleChange = ({ target: { value } }: React.ChangeEvent<HTMLSelectElement | HTMLInputElement>): void => {
     if (value.length >=7) {
-      if(value == password) {
+      if(value.toLowerCase() == password) {
         setCorrect(true)
       } else {
         window.location.reload();

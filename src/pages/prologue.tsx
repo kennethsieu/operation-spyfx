@@ -176,10 +176,12 @@ const Prologue: React.FC<PageProps> = () => {
               <br></br>
               <div>{luck()}</div>
               <br></br>
-              <div className="proLink">
-                <div className="briefLink"><Link to="/breifing">Full Mission Details</Link></div>
-                <div className="briefLink"><Link to="/targets">Target Info</Link></div>
+              {count > 1000 && (
+                <div className="proLink">
+                <div><Link to="/breifing">Full Mission Details</Link></div>
+                <div><Link to="/targets">Target Info</Link></div>
               </div>
+              )}
             </div>
           </div>
         <div className="scanlines"></div>

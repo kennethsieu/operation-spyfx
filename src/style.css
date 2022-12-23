@@ -94,7 +94,7 @@ html {
     content: attr(data-text);
     position: absolute;
     left: -2px;
-    text-shadow: -5px 0 magenta;
+    text-shadow: -.5vw 0 magenta;
     background: black;
     overflow: hidden;
     top: 0;
@@ -105,7 +105,7 @@ html {
     content: attr(data-text);
     position: absolute;
     left: 2px;
-    text-shadow: -5px 0 lightgreen;
+    text-shadow: -.5vw 0 lightgreen;
     background: black;
     overflow: hidden;
     top: 0;
@@ -266,7 +266,7 @@ a:active {
 
 .type {
   position: absolute;
-  transform: translateY(4vh);
+  transform: translateY(2vw);
   left: 0;
   right: 0;
   margin: 0 auto;
@@ -376,9 +376,9 @@ a:active {
   animation-fill-mode: forwards;
 }
 
-.breifLink {
-  opacity: 0;
-  animation: fadeIn 1s linear 29s 1 forwards;
+
+.proLink {
+  text-align: right;
 }
 
 

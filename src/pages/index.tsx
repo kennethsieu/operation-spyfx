@@ -7,24 +7,17 @@ import { Link } from "gatsby"
 const IndexPage: React.FC<PageProps> = () => {
   const [correct, setCorrect] = useState<boolean>(false)
   const password = "peanuts"
-  const [pass, setPass] = useState<String>("")
 
+  const handleChange = ({ target: { value } }: React.ChangeEvent<HTMLSelectElement | HTMLInputElement>): void => {
+    if (value.length >=7) {
+      if(value == password) {
+        setCorrect(true)
+      } else {
+        window.location.reload();
+      }
+    }
+  };
 
-  React.useEffect(() => {
-    if (!correct) {
-      window.addEventListener('keydown', (event) => {
-        setPass(pass + event.key)
-        if (pass.length >= 7 && !correct) {
-          if (pass == password) {
-            setCorrect(true)
-          } else {
-            window.location.reload();
-          }
-        }
-      });
-    } 
-  }, [pass]);
-  
   return (
     <html>
       <head>
@@ -36,7 +29,7 @@ const IndexPage: React.FC<PageProps> = () => {
           <React.Fragment>
               <div className="container2">
                 <div className="passRsqt">PASSWORD REQUIRED</div>
-                <div className="password">{pass}</div>
+                  <input className="password" type="text" onChange={handleChange}/>
               </div>
           </React.Fragment>
         )}

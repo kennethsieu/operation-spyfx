@@ -141,6 +141,7 @@ html {
     text-align: center;
     margin-top: 10vh;
     letter-spacing: .5em;
+    background-color: gray;
   }
 
   .access {
@@ -288,82 +289,6 @@ a:active {
   font-size: 1.5vw;
 }
 
-#greeting {
-  width: 0;
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  white-space: nowrap; /* Keeps the content on a single line */
-   /* Adjust as needed */
-  animation: 
-    greeting 2s steps(100, end);
-  animation-fill-mode: forwards;
-  animation-delay: 1s;
-}
-
-@keyframes greeting {
-  0% {
-    width: 0%;
-  }
-  25% {
-    width: 14%;
-  }
-  37.5% {
-    width: 14%;
-  }
-  100% {
-    width: 50%
-  }
-}
-
-#crisis {
-  width: 0;
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  white-space: nowrap; /* Keeps the content on a single line */
-  animation: 
-    crisis 4s steps(100, end);
-  animation-delay: 3s;
-  animation-fill-mode: forwards;
-}
-
-@keyframes crisis {
-  0% {
-    width: 0%;
-  }
-  40% {
-    width: 41%;
-  }
-  50% {
-    width: 41%;
-  }
-  88% {
-    width: 92%;
-  }
-  98% {
-    width: 92%;
-  }
-  100% {
-    width: 100%;
-  }
-}
-
-#entity {
-  width: 0;
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  white-space: nowrap; /* Keeps the content on a single line */
-  animation: 
-    entity 2s steps(100, end);
-  animation-delay: 7s;
-  animation-fill-mode: forwards;
-}
-
-@keyframes entity {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 90%;
-  }
-}
-
 #paul {
   width: 0;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
@@ -384,16 +309,6 @@ a:active {
   100% {
     width: 30%;
   }
-}
-
-#dancer {
-  width: 0;
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  white-space: nowrap; /* Keeps the content on a single line */
-  animation: 
-    entity 3s steps(71, end);
-  animation-delay: 10s;
-  animation-fill-mode: forwards;
 }
 
 #ops {
@@ -458,88 +373,6 @@ a:active {
   animation: 
     paul 1s steps(40, end);
   animation-delay: 17s;
-  animation-fill-mode: forwards;
-}
-
-#bunch {
-  width: 0;
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  white-space: nowrap; /* Keeps the content on a single line */
-  animation: 
-    bunch 4s steps(100, end);
-  animation-delay: 18s;
-  animation-fill-mode: forwards;
-}
-
-@keyframes bunch {
-  0% {
-    width: 0%;
-  }
-  25% {
-    width: 28%;
-  }
-  35% {
-    width: 28%;
-  }
-  70% {
-    width: 79%;
-  }
-  80% {
-    width: 79%;
-  }
-  100% {
-    width: 100%;
-  }
-}
-
-#monitor {
-  width: 0;
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  white-space: nowrap; /* Keeps the content on a single line */
-  animation: 
-    monitor 4s steps(100, end);
-  animation-delay: 22s;
-  animation-fill-mode: forwards;
-}
-
-@keyframes monitor {
-  0% {
-    width: 0%;
-  }
-  30% {
-    width: 31%;
-  }
-  40% {
-    width: 31%;
-  }
-  85% {
-    width: 92%;
-  }
-  95% {
-    width: 92%;
-  }
-  100% {
-    width: 100%;
-  }
-}
-
-#confront {
-  width: 0;
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  white-space: nowrap; /* Keeps the content on a single line */
-  animation: 
-    paul 2s steps(100, end);
-  animation-delay: 26s;
-  animation-fill-mode: forwards;
-}
-
-#luck {
-  width: 0;
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  white-space: nowrap; /* Keeps the content on a single line */
-  animation: 
-    paul 1s steps(100, end);
-  animation-delay: 28s;
   animation-fill-mode: forwards;
 }
 

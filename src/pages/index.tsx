@@ -36,9 +36,9 @@ const IndexPage: React.FC<PageProps> = () => {
         {correct && (
             <React.Fragment>
               <div className="container">
+                <div className="prologueLink"><Link to="/prologue">PRESS HERE TO CONTINUE</Link></div>
                 <div className="prefix">OPERATION</div>
                 <div className="glitch" data-text="SPYFX">SPYFX</div>
-                <div className="prologueLink"><Link to="/prologue">PRESS HERE TO CONTINUE</Link></div>
               </div>
               <div className ="access"> ACCESS GRANTED</div>
             </React.Fragment>

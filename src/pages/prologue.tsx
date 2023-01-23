@@ -66,12 +66,12 @@ const Prologue: React.FC<PageProps> = () => {
   }
 
   function bunch() {
-    var s = "They are a reclusive bunch, however they are directing an elusive dance team. Your mission is to monitor any seditious activites. Be aware many adversarial orgs have also followed to suit. Be prepared to confront them."
+    var s = "They are a reclusive bunch, however they are directing an elusive dance team. Your mission is to monitor any seditious activities. Be aware many adversarial orgs have also followed to suit. Be prepared to confront them."
     var start = 720
     var pause1 = 27
     var pause2 = 77
-    var pause3 = 129
-    var pause4 = 188
+    var pause3 = 130
+    var pause4 = 189
     var len = s.length
     if(count < start) {
       return ""
@@ -166,7 +166,7 @@ const Prologue: React.FC<PageProps> = () => {
                 <div id="target">Your targets are:</div>
                 <br></br>
                 <div id="ken">Kenneth Sieu</div> 
-                <div id="lorenzo">Lorenzo De La Cruz</div> 
+                <div id="lorenzo">Lorenzo Dela Cruz</div> 
                 <div id="tiff">Tiffany Wong</div> <br></br>
               </div>
               <div>{bunch()} </div>
@@ -181,6 +181,7 @@ const Prologue: React.FC<PageProps> = () => {
                 <div><Link to="/targets">Target Info</Link></div>
               </div>
               )}
+              <br></br>
             </div>
           </div>
         <div className="scanlines"></div>

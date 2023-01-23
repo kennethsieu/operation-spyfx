@@ -418,13 +418,13 @@ b {
     font-size: 25px;
   }
   .access {
-    font-size: 50px;
+    font-size: 40px;
     margin-top: 250px;
   }
   .prefix {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 100;
-    font-size: 30px;
+    font-size: 25px;
     color: rgba(165, 141, 141, .4);
     text-transform: uppercase;
     letter-spacing: .75em;
@@ -439,20 +439,20 @@ b {
     animation: glitch 3s 3.02s infinite;
   }
   .prologueLink {
-    font-size: 25px;
+    font-size: 20px;
   }
 
   .type {
     transform: translateY(20px);
   }
   .connection {
-    font-size: 20px;
+    font-size: 16px;
   }
   .loading {
-    font-size: 20px;
+    font-size: 16px;
   }
   .closed {
-    font-size: 20px;
+    font-size: 16px;
   }
   .flavorText {
     font-size: 16px;
@@ -462,8 +462,15 @@ b {
       width: 0%;
     }
     100% {
-      width: 60%;
+      width: 80%;
     }
+  }
+  p {
+    margin-left: 15px;
+  }
+  
+  ul {
+    margin-left: 0px;
   }
 }
 

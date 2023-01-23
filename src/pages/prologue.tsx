@@ -33,7 +33,7 @@ const Prologue: React.FC<PageProps> = () => {
 
   
   function crisis() {
-    var s = "The peace of world is currently at stake. A cult has infiltrated our esteemed establishment. They"
+    var s = "The peace of world is currently at stake. A cult has infiltrated our esteemed establishment. They have no regards for normality and worship some outer entity named ..."
     var start = 140
     var pause1 = 41
     var pause2 = 92
@@ -53,16 +53,6 @@ const Prologue: React.FC<PageProps> = () => {
     }
   }
 
-  function entity() {
-    var s = "have no regards for normality and worship some outer entity named ..."
-    var start = 257
-    var len = s.length
-    if(count < start) {
-      return ""
-    } else {
-      return s.substring(0, Math.min(len, count - start))
-    }
-  }
 
   function dancer() {
     var s = "Your mission is to infiltrate the AFX organization and become an AFX DANCER"
@@ -76,10 +66,12 @@ const Prologue: React.FC<PageProps> = () => {
   }
 
   function bunch() {
-    var s = "They are a reclusive bunch, however they are directing an elusive dance team. Your mission is to"
+    var s = "They are a reclusive bunch, however they are directing an elusive dance team. Your mission is to monitor any seditious activites. Be aware many adversarial orgs have also followed to suit. Be prepared to confront them."
     var start = 720
     var pause1 = 27
     var pause2 = 77
+    var pause3 = 129
+    var pause4 = 188
     var len = s.length
     if(count < start) {
       return ""
@@ -89,15 +81,23 @@ const Prologue: React.FC<PageProps> = () => {
       return s.substring(0, pause1)
     } else if(count >= start + pause1 + delay && count < start + delay + pause2) {
       return s.substring(0, count - start - delay + 1)
-    } else if (count >= start + pause2 + delay && count < start + pause2 + delay + delay) {
+    } else if (count >= start + pause2 + delay && count < start + pause2 + delay * 2) {
       return s.substring(0, pause2)
+    }else if (count >= start + pause2 + delay * 2 && count < start + delay * 2 + pause3) {
+      return s.substring(0, count - start - delay * 2 + 1)
+    }else if (count >= start + pause3 + delay * 2 && count < start + pause3 + delay * 3) {
+      return s.substring(0, pause3)
+    }else if (count >= start + pause3 + delay * 3 && count < start + delay * 3 + pause4) {
+      return s.substring(0, count - start - delay * 3 + 1)
+    }else if (count >= start + pause4 + delay * 3 && count < start + pause4 + delay * 4) {
+      return s.substring(0, pause4)
     } else {
-      return s.substring(0, Math.min(len, count - start - delay - delay))
+      return s.substring(0, Math.min(len, count - start - delay * 4))
     }
   }
 
   function monitor() {
-    var s = "monitor any seditious activites. Be aware many adversarial orgs have also followed to suit. Be"
+    var s = ""
     var start = 836
     var pause1 = 32
     var pause2 = 91
@@ -118,7 +118,7 @@ const Prologue: React.FC<PageProps> = () => {
   }
 
   function confront() {
-    var s = "prepared to confront them."
+    var s = ""
     var start = 960
     var len = s.length
     if(count < start) {
@@ -151,11 +151,10 @@ const Prologue: React.FC<PageProps> = () => {
         <div className="closed">Connection Closed</div>
         <div className = "type">
             <div className="flavorText">
-              <hr></hr>
+            <hr />
               <div>{greeting()}</div>
               <br></br>
               <div>{crisis()} </div>
-              <div>{entity()}</div>
               <br></br>
               <div className="center" id = "paul">Paul?</div>
               <br></br>
@@ -176,7 +175,7 @@ const Prologue: React.FC<PageProps> = () => {
               <br></br>
               <div>{luck()}</div>
               <br></br>
-              {count > 1000 && (
+              {count > 1025 && (
                 <div className="proLink">
                 <div><Link to="/breifing">Full Mission Details</Link></div>
                 <div><Link to="/targets">Target Info</Link></div>

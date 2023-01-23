@@ -6,6 +6,10 @@ html {
     text-align: center;
 }
 
+h1 {
+  text-align: center;
+}
+
 .body {
   height: max-content;
 }
@@ -275,6 +279,13 @@ a:active {
   margin: 0 auto;
 }
 
+.static {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
 
 .flavorText {
   font-family: Orbitron;
@@ -382,9 +393,29 @@ a:active {
   text-align: right;
 }
 
+p {
+  margin-left: 5%;
+}
+
+ul {
+  margin-left: 10%;
+}
+
+b {
+  color: #D5F5E3;
+}
+
+.briefLink {
+  font-size: 2.5vw;
+  text-align: right;
+}
+
 @media (max-width: 500px) {
   .passRsqt {
     font-size: 50px;
+  }
+  .briefLink {
+    font-size: 25px;
   }
   .access {
     font-size: 50px;

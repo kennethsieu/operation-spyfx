@@ -193,12 +193,12 @@ h1 {
 }
 
 a:link {
-  color: white;
+  color: #FAB3AD;
   text-decoration: none;
 }
 
 a:visited {
-  color: white;
+  color: #FAB3AD;
 }
 
 a:hover {
@@ -213,7 +213,7 @@ a:active {
   font-family: Orbitron;
   font-weight: 100;
   font-size: 2vw;
-  color: green;
+  color: white;
   text-transform: uppercase;
   text-align: center;
   position: absolute;
@@ -235,7 +235,7 @@ a:active {
   font-family: Orbitron;
   font-weight: 100;
   font-size: 2vw;
-  color: green;
+  color: white;
   text-transform: uppercase;
   text-align: center;
   position: absolute;
@@ -250,7 +250,7 @@ a:active {
   font-family: Orbitron;
   font-weight: 100;
   font-size: 2vw;
-  color: green;
+  color: white;
   text-transform: uppercase;
   text-align: center;
   position: absolute;
@@ -291,7 +291,7 @@ a:active {
   font-family: Orbitron;
   font-weight: 100;
   font-size: 1.3vw;
-  color: green;
+  color: #FAF9F6;
   text-align: left;
   width: 90%;
   margin-left: 5%;
@@ -402,7 +402,7 @@ ul {
 }
 
 b {
-  color: #D5F5E3;
+  color: #FAB3AD;
 }
 
 .briefLink {

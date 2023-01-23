@@ -39,7 +39,7 @@ const Targets: React.FC<PageProps> = () => {
                 <p>415-539-6976</p>
                 <p>tiwong11@berkeley.edu</p>
                 <p><a href="https://www.facebook.com/profile.php?id=100008446778248">Facebook</a></p>
-                <p>	“Suspected of theif of many articles of great value.”
+                <p>	“Suspected of thief of many articles of great value.”
                 </p>  
                 <div className="briefLink"><Link to="/breifing">Full Mission Details</Link></div>
                 <br></br>

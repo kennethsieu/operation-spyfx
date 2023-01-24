@@ -18,15 +18,15 @@ const Breifing: React.FC<PageProps> = () => {
                 <h1>Operation: SPYFX</h1>
                 <h2>Mission Goals</h2>
                 <p> Hello Agent. Your targets are reportedly involved 
-                  in creating a SPY x FAMILY themed set. Yes, it is an anime themed set, 
+                  in creating a <b>SPY x FAMILY</b> themed set. Yes, it is an anime themed set, 
                   however, early surveillance shows your targets care very much about the 
-                  “team experience”. They do not expect their dancers to have any knowledge 
-                  of SPY x FAMILY, nor are they required to watch it. This should make 
+                  “team experience”. <b>They do not expect their dancers to have any knowledge 
+                  of SPY x FAMILY, nor are they required to watch it.</b> This should make 
                   infiltration significantly easier. 
                 </p>
                 <p>One of our agents has recorded one of their conversations:</p>
-                <p>“If they think anime is cringe, that's ok. They should treat the set 
-                  theme as a found family. If the choreo is good and people are having fun, 
+                <p>“If they think anime is cringe, that's ok. <b>They should treat the set 
+                  theme as a found family.</b> If the choreo is good and people are having fun, 
                   they should have a great time.”
                 </p>
                 <p>
@@ -112,7 +112,7 @@ const Breifing: React.FC<PageProps> = () => {
                         <li>(Submit your confessions and feed his propaganda machine)</li>
                       </ul>
                     </li>
-                    <li>OPERATION: Spyfx Link Tree (tinyurl.com/spfxlinks)
+                    <li>OPERATION: Spyfx Link Tree (<a href="https://tinyurl.com/spyfxlinks">tinyurl.com/spyfxlinks</a>)
                       <ul>
                         <li>A Google Doc with all the links you will need 
                           (Team Google Drive, Confessions Submission Forms, Facebook Groups 
@@ -124,7 +124,7 @@ const Breifing: React.FC<PageProps> = () => {
                   <ul>
                     <li>Dues will be $30 (Cash or Venmo payable to @lorenzodc27), 
                       with a $5 additional LATE FEE every practice past deadline: </li>
-                    <li>Team apparel (mandatory) and gen apparel (optional) are NOT covered by these dues</li>
+                    <li><b>Team apparel (mandatory) and gen apparel (optional) are NOT covered by these dues</b></li>
                     <li>Please let HQ know if you have financial concerns. We value our Agents more than finances.</li>
                     <li>If you unable to make the mission, fill out this <a href="roster.afx.dance/teamswitch">form</a> to 
                       be reassigned or removed.</li>
@@ -133,7 +133,7 @@ const Breifing: React.FC<PageProps> = () => {
                   <p>Safety and Responsibility Contract</p>
                   <ul>
                     <li>As of Spring 2019, all dancers are required to sign the “Mandatory Contract on Safety and Responsibility” in order to keep members of AFX Dance more accountable for harassment/assault.</li>
-                    <li>Failure to do so by Saturday, 2/17 @ 11:59PM will result in you being DROPPED FROM AFX WITH NO REFUND.</li>
+                    <li>Failure to do so by Saturday, 2/17 @ 11:59PM will result in you being <b>DROPPED FROM AFX WITH NO REFUND.</b></li>
                     <li>We want to maintain a safe team environment for everyone this semester and will take any allegations regarding harassment/assault within the team extremely seriously. </li>
                   </ul>
                   <br></br>

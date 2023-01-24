@@ -127,6 +127,11 @@ h1 {
     }
   }
 
+  img {
+    width: 25vw;
+    height: 25vw;
+  }
+
   .passRsqt {
     position: relative;
     font-family: Orbitron;
@@ -410,6 +415,16 @@ b {
   text-align: right;
 }
 
+.suspect {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.info {
+  width: 60%;
+}
+
 @media (max-width: 500px) {
   .passRsqt {
     font-size: 50px;
@@ -435,7 +450,7 @@ b {
     font-style: italic;
     color: rgb(223, 191, 191);
     position: relative;
-    font-size: 90px;
+    font-size: 75px;
     animation: glitch 3s 3.02s infinite;
   }
   .prologueLink {

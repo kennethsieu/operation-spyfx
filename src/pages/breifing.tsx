@@ -48,7 +48,7 @@ const Breifing: React.FC<PageProps> = () => {
                   <p>In addition you must be available for:</p>
                   <ul>
                     <li>Show and Tell (4/19)</li>
-                    <li>AFX Spring 2023 Showcase (TBD)</li>
+                    <li>AFX Spring 2023 Showcase (4/22)</li>
                   </ul>
                   <p>If you unable to fulfill this mission’s scheduling parameters, 
                     please fill out the <a href="roster.afx.dance/teamswitch">drop/switch form</a>

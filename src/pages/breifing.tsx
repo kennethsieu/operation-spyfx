@@ -38,7 +38,7 @@ const Breifing: React.FC<PageProps> = () => {
                 <h2>Mission Logistics</h2>
                   <p> First practice is February 8th, there are two practices a week</p>
                   <ul>
-                    <li>Wednesday 6:30 - 9:00 pm, Lower Sproul</li>
+                    <li>Wednesday 6:30 - 9:00 pm, Lower Sproul (MLK Side) </li>
                     <li>Friday 6:30 - 9:00 pm, Haas Pavilion</li>
                   </ul>
                   <p>You must attend the first practice, or contact the directors if you 
@@ -51,7 +51,7 @@ const Breifing: React.FC<PageProps> = () => {
                     <li>AFX Spring 2023 Showcase (4/22)</li>
                   </ul>
                   <p>If you unable to fulfill this mission’s scheduling parameters, 
-                    please fill out the <a href="roster.afx.dance/teamswitch">drop/switch form</a>
+                    please fill out the <a href="https://roster-rb.herokuapp.com/teamswitch">drop/switch form</a>
                   </p>
                   <p>Agents are also expected to do the following to not jeopardize the mission
                   </p>
@@ -75,9 +75,9 @@ const Breifing: React.FC<PageProps> = () => {
                       <b>DROPPED FROM THE TEAM, INTERROGATED AS AN ENEMY SPY AND THEN SENT TO SHADOW PRISON</b> </li>
                   </ul>
                   <p>
-                  Please notify the directors, via a Facebook Messenger Group Chat 
-                  (w/ all directors added), if you are unable to make practice due to illness, 
-                  exams or other extenuating circumstances.
+                  Please notify the directors, via <a href="https://forms.gle/2zeKDnBS2hC9G6pE9">this form</a>, at least 24 hours in advance,  
+                  if you are unable to make practice due to illness, exams or other extenuating 
+                  circumstances.
                   </p>
                   <h2>Mission Communications</h2>
                   <ul>
@@ -94,7 +94,7 @@ const Breifing: React.FC<PageProps> = () => {
                       <ul>
                         <li><b>DO NOT MUTE</b></li>
                         <li>The directors will post important announcements and reminders in this chat</li>
-                        <li>Do not post anything here</li>
+                        <li>DO NOT POST anything here</li>
                       </ul>
                     </li>
                     <li>Facebook Messenger Social [S] Chat
@@ -103,7 +103,7 @@ const Breifing: React.FC<PageProps> = () => {
                         <li>It may be filled with propaganda, events, and other info.</li>
                       </ul>
                     </li>
-                    <li>Paul Forger 
+                    <li>Paulyuh Forgerurmom (<a href="https://www.facebook.com/people/Paulyuh-Forgerurmom/100090128107834/?mibextid=LQQJ4d">FACEBOOK</a>) 
                       <ul>
                         <li>A former research experiment, Paul is a wanted villain possessing 
                           the ability to access one’s deepest, darkest secrets and confessions.
@@ -126,7 +126,7 @@ const Breifing: React.FC<PageProps> = () => {
                       with a $5 additional LATE FEE every practice past deadline: </li>
                     <li><b>Team apparel (mandatory) and gen apparel (optional) are NOT covered by these dues</b></li>
                     <li>Please let HQ know if you have financial concerns. We value our Agents more than finances.</li>
-                    <li>If you unable to make the mission, fill out this <a href="roster.afx.dance/teamswitch">form</a> to 
+                    <li>If you unable to make the mission, fill out this <a href="https://roster-rb.herokuapp.com/teamswitch">form</a> to 
                       be reassigned or removed.</li>
                   </ul>
                   <h2>MESSAGE FROM HQ</h2>

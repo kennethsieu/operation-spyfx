@@ -2,7 +2,10 @@ import React, { useState, useEffect, ChangeEvent,  } from "react";
 import type { HeadFC, PageProps } from "gatsby"
 import '../style.css'
 import { Link } from "gatsby"
+import kenneth from "../images/kenneth.jpg"
+import tiffany from "../images/tiffany.jpg"
 import lorenzo from "../images/lorenzo.jpg"
+import paul from "../images/paul.jpg"
 
 
 const Targets: React.FC<PageProps> = () => {
@@ -18,8 +21,8 @@ const Targets: React.FC<PageProps> = () => {
             <div className="flavorText">
                 <h1>TARGETS</h1>
                 <div className="suspect">
-                  <div>
-                    <img alt="lorenzo" src={lorenzo} />
+                  <div >
+                    <img className="mobileImg" alt="lorenzo" src={kenneth} />
                   </div>
                   <div className="info">
                   <h2>KENNETH SIEU</h2>
@@ -46,7 +49,7 @@ const Targets: React.FC<PageProps> = () => {
                 </div>
                 <div className="suspect">
                   <div>
-                    <img alt="lorenzo" src={lorenzo} />
+                    <img alt="lorenzo" src={tiffany} />
                   </div>
                   <div className="info">
                   <h2>TIFFANY WONG</h2>
@@ -54,7 +57,21 @@ const Targets: React.FC<PageProps> = () => {
                 <p>415-539-6976</p>
                 <p>tiwong11@berkeley.edu</p>
                 <p><a href="https://www.facebook.com/profile.php?id=100008446778248">Facebook</a></p>
-                <p>	“Suspected of thief of many articles of great value.”
+                <p>	“Suspected of thievery of many articles of great value, including but not limited to, ur mom.”
+                </p>  
+                  </div>
+                </div>
+                <div className="suspect">
+                  <div>
+                    <img alt="lorenzo" src = {paul} />
+                  </div>
+                  <div className="info">
+                  <h2>PAUL: THE PROGENITOR</h2>
+                <p>8'3"</p>
+                <p>510-URR-MMOM</p>
+                <p>paulrespectsurmom@gmail.com</p>
+                <p><a href="https://instagram.com/paul.thepooh?igshid=YmMyMTA2M2Y=">Instagram</a></p>
+                <p>	“Progenitor of life, father and mother, alpha and omega, our creator and our destroyer.”
                 </p>  
                   </div>
                 </div>
